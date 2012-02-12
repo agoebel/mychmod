@@ -27,9 +27,12 @@ mychmod [-u rwx] [-g rwx] [-o rwx] [-U rwx] [-G rwx] [-O rwx] <filename(s)>
 -o/-O Add/Remove read, write and execute permissions for all other users
 
 Examples:
-mychmod -O rwx doc                  Prevent access to users outside of my group
-mychmod -u x -g x o x app           Add execute permissions for all users
-mychmod -u rw -G rwx -O rwx passwd  Allow access only to the owner of the file
+mychmod -O rwx doc                  
+- Prevent access to users outside of my group
+mychmod -u x -g x o x app           
+- Add execute permissions for all users
+mychmod -u rw -G rwx -O rwx passwd  
+- Allow access only to the owner of the file
 
 ERROR MESSAGES
 ==============

@@ -42,19 +42,15 @@ ERROR MESSAGES
 These are the more important error messages that can be encountered during use
 of mychmod:
 
-Conflicting USER permission options	These errors can occur when the user
-Conflicting GROUP permission options    requests two changes that cannot both
-Conflicting OTHER permission options    be applied. For example, -u r -U r
+Conflicting USER permission options - These errors can occur when the user
+Conflicting GROUP permission options - requests two changes that cannot both
+Conflicting OTHER permission options - be applied. For example, -u r -U r
 
-<filename> does not exist		Changes have been requested to a file
-                                        that could not be found
+<filename> does not exist - Changes have been requested to a file that could not be found
 
-Access denied to <filename>		The user is trying to change a file 
-                                        for which they do not have read access
+Access denied to <filename> - The user is trying to change a file for which they do not have read access
 
-Insufficient privileges to change <filename>	The user is trying to change a
-                                                file for which they do not have
-                                                write access
+Insufficient privileges to change <filename> - The user is trying to change a file for which they do not have write access
 
 EXIT CODES
 ==========

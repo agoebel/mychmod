@@ -23,7 +23,9 @@ The complete set of allowable arguments is as follows:
 mychmod [-u rwx] [-g rwx] [-o rwx] [-U rwx] [-G rwx] [-O rwx] <filename(s)> 
 
 -u/-U Add/Remove read, write and execute permissions for the owner of the file
+
 -g/-G Add/Remove read, write and execute permissions for the group of the file
+
 -o/-O Add/Remove read, write and execute permissions for all other users
 
 Examples:

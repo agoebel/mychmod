@@ -1,6 +1,3 @@
-ANDREW GOEBEL
-=============
-
 INTRODUCTION
 ============
 mychmod is a tool for applying file permission changes to a list of files.
